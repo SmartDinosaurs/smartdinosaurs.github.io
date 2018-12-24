@@ -1,0 +1,135 @@
+html,
+body,
+header,
+nav,
+div,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+.header-nav {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+}
+.header-nav-div {
+  padding: 0 10px;
+  margin: 0 auto;
+  max-width: 1000px;
+  height: 100%;
+  background-color: #fff;
+}
+.header-nav-img {
+  width: 128px;
+  height: 20px;
+  margin-top: 15px;
+}
+.header-nav-ul {
+  overflow: hidden;
+  float: right;
+}
+.header-nav-li {
+  padding: 0 10px;
+  height: 50px;
+  box-sizing: border-box;
+  border-top: 1px solid #fff;
+  float: left;
+  display: inline-block;
+}
+.header-nav-a {
+  line-height: 50px;
+  color: #999;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-size: 12px;
+}
+.header-nav-a:hover {
+  color: #6dbefb;
+}
+.img-div {
+  height: 40vh;
+}
+.img-wrapper {
+  height: 100%;
+  position: relative;
+}
+.img-scroll {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.img-scroll img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: transparent;
+}
+.img-prev {
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 5vh;
+  background: url("/images/button1.png") 0px 0px;
+  display: none;
+}
+.img-prev:hover {
+  background-position: 0px -30px;
+}
+.img-next {
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5vh;
+  background: url("/images/button1.png") -30px 0px;
+  display: none;
+}
+.img-next:hover {
+  background-position: -30px -30px;
+}
+.img-circle-wrapper {
+  width: 80px;
+  height: 20px;
+  position: absolute;
+  left: calc(50% - 40px);
+  bottom: 2vh;
+  text-align: center;
+}
+.img-circle-wrapper span {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #999;
+  margin: auto 2px;
+}
+.img-circle-wrapper span.hover {
+  background-color: #6dbefb;
+}
+.summary-div {
+  width: 100%;
+  height: 20vh;
+  min-height: 140px;
+  max-height: 160px;
+  background-color: #00f;
+  margin: 0 auto;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.welcome-h2 {
+  display: block;
+  font-family: "Hiragino Sans GB";
+}
